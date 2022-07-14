@@ -1,0 +1,28 @@
+.header__logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  color: $text-color;
+  text-decoration: none;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  .header__logo-web {
+    font-family: "Raleway";
+    color: $accent-color;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  }
+}
+.footer__logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: $button-text;
+}

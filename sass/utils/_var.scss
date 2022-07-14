@@ -1,0 +1,39 @@
+$text-color: #212121;
+$accent-color: #2196f3;
+$section-bgc: #2f303a;
+$button-text: #ffffff;
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section {
+  padding: 94px 0px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #757575;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  color: $text-color;
+}
+.title-none {
+  display: none;
+}
