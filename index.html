@@ -21,10 +21,51 @@
         <a class="header__logo" href="./index.html"
           ><span class="header__logo-web">Web</span>Studio</a
         >
+        <div class="header__mobile">
+          <button class="button-mobile" type="button">
+            <svg width="40" height="40">
+              <use
+                class="icon__mob-close"
+                href="./images/icon.svg#icon-icon-close"
+              ></use>
+              <use
+                class="icon__mob-open"
+                href="./images/icon.svg#icon-burgerbtn"
+              ></use>
+            </svg>
+          </button>
+          <div class="header__mobile-navcontainer">
+            <nav class="header__mob-navigation">
+              <ul class="header__mob-list">
+                <li class="header__mob-item">Студия</li>
+                <li class="header__mob-item">Портфолио</li>
+                <li class="header__mob-item">Контакты</li>
+              </ul>
+            </nav>
+            <ul class="header__mob-authlist">
+              <li class="header__mob-authitem">
+                <a class="header__mob-link" href="tel:+380961111111"
+                  >+380961111111</a
+                >
+              </li>
+              <li class="header__mob-authitem">
+                <a class="header__mob-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="header__mob-social">
+              <li><a class="header__mob-soial-link" href="#">Instagram</a></li>
+              <li><a class="header__mob-soial-link" href="#">Twitter</a></li>
+              <li><a class="header__mob-soial-link" href="#">Facebook</a></li>
+              <li><a class="header__mob-soial-link" href="#">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
         <nav class="header__navigation">
           <ul class="header__list">
             <li class="header__item">
-              <a class="header__link header__link--active" href="#"> Студия</a>
+              <a class="header__link header__link--active" href=""> Студия</a>
             </li>
             <li class="header__item">
               <a class="header__link" href="./portfolio.html">Портфолио</a>
@@ -139,7 +180,8 @@
             <li class="wedo__item">
               <img
                 class="wedo__img"
-                src="./images/img.jpg"
+                srcset="./images/main.jpg 1x, ./images/main@2x.jpg 2x"
+                src="./images/main.jpg"
                 alt="img1"
                 width="370"
                 height="294"
@@ -149,7 +191,8 @@
             <li class="wedo__item">
               <img
                 class="wedo__img"
-                src="./images/img2.jpg"
+                srcset="./images/main-1.jpg 1x, ./images/main@2x-1.jpg 2x"
+                src="./images/main-1.jpg"
                 alt="img2"
                 width="370"
                 height="294"
@@ -159,7 +202,8 @@
             <li class="wedo__item">
               <img
                 class="wedo__img"
-                src="./images/img3.jpg"
+                srcset="./images/main-2.jpg 1x, ./images/main@2x-2.jpg 2x"
+                src="./images/main-2.jpg"
                 alt="img3"
                 width="370"
                 height="294"
@@ -179,7 +223,8 @@
             <li class="team__item">
               <img
                 class="team__img"
-                src="./images/ourteam1.jpg"
+                srcset="./images/igor.jpg 1x, ./images/igor2x.jpg 2x"
+                src="./images/igor.jpg"
                 alt="igor"
                 width="270"
                 height="260"
@@ -226,7 +271,8 @@
             <li class="team__item">
               <img
                 class="team__img"
-                src="./images/ourteam2.jpg"
+                srcset="./images/olga.jpg 1x, ./images/olga2x-1.jpg 2x"
+                src="./images/olga.jpg"
                 alt="olga"
                 width="270"
                 height="260"
@@ -272,7 +318,8 @@
             <li class="team__item">
               <img
                 class="team__img"
-                src="./images/ourtem3.jpg"
+                srcset="./images/nik.jpg 1x, ./images/nik2x-2.jpg 2x"
+                src="./images/nik.jpg"
                 alt="nikolai"
                 width="270"
                 height="260"
@@ -318,7 +365,8 @@
             <li class="team__item">
               <img
                 class="team__img"
-                src="./images/ourteam4.jpg"
+                srcset="./images/mik.jpg 1x, ./images/mik2x-3.jpg 2x"
+                src="./images/mik.jpg"
                 alt="mikhail"
                 width="270"
                 height="260"
@@ -571,7 +619,7 @@
 
         <button class="modal__button" type="button" data-modal-close>
           <svg width="18" height="18">
-            <use href="./images/close.svg#icon-close-black"></use>
+            <use href="./images/icon.svg#icon-icon-close"></use>
           </svg>
         </button>
       </div>
