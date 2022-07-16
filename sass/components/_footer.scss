@@ -1,7 +1,17 @@
-// .footer {
-//   background-color: $section-bgc;
-//   padding: 60px 0;
-// }
+.footer {
+  background-color: $section-bgc;
+  padding: 60px 0;
+}
+
+.flex-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
 // .footer__list {
 //   display: flex;
 //   flex-direction: column;
@@ -15,11 +25,6 @@
 //   line-height: 1.7;
 //   color: #ffffff;
 //   letter-spacing: 0.03em;
-// }
-
-// .flex-footer {
-//   display: flex;
-//   align-items: baseline;
 // }
 
 // .footer-container {
