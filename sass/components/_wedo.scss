@@ -47,4 +47,8 @@
 
     background: rgba(47, 48, 58, 0.8);
   }
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }
