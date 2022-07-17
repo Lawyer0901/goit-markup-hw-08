@@ -5,20 +5,21 @@
 /* Navigation main */
 .header {
   .header__navigation {
-    margin-left: 93px;
+    // margin-left: 93px;
     @media screen and (max-width: 767px) {
       display: none;
     }
   }
 }
 
-.header {
-  .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-}
+// .header {
+//   .header-container {
+//     display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// }
+//   }
+// }
 
 // .header-container {
 //   display: flex;
