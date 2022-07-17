@@ -19,6 +19,7 @@
 
 .clients__list {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 15px;
   flex-basis: calc(100% - 2 * 30px) / 3;
