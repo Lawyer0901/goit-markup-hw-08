@@ -14,6 +14,10 @@
   border: none;
   background-color: #fff;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
 .button-mobile:hover,
 .button-mobile:focus {
@@ -42,13 +46,14 @@
 
 // МОБИЛЬНАЯ НАВИГАЦИЯ
 .header__mobile-navcontainer {
+  padding: 48px 40px;
   display: none;
   position: absolute;
   width: 100%;
   height: auto;
   top: 40px;
   left: 0;
-  padding: 48px 40px;
+  z-index: 99;
 
   background-color: #fff;
 }
