@@ -681,7 +681,7 @@ ul {
 .modal {
   padding: 40px;
   position: absolute;
-  width: 528px;
+  width: 450px;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%) scale(1);
