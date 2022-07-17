@@ -11,17 +11,17 @@ $button-text: #ffffff;
 
   @media screen and (min-width: 480px) {
     width: 480px;
-    // height: 60px;
   }
 
   @media screen and (min-width: 768px) {
     width: 768px;
-    // height: 80px;
   }
+
   @media screen and (min-width: 1200px) {
     width: 1200px;
   }
 }
+
 .section {
   padding: 60px 0px;
 

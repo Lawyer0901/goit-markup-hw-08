@@ -19,6 +19,16 @@
     (min-resolution: 2dppx) {
     background-image: url(/images/header480@2x.jpg);
   }
+
+  @media screen and (min-width: 768px) {
+    background-image: url(/images/header768.jpg);
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(/images/header768@2x.jpg);
+    }
+  }
 }
 
 .hero__title {

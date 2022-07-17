@@ -5,11 +5,17 @@
 
 .flex-footer {
   text-align: center;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
 
 .adress-container {
   margin-top: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 8px;
 }
 
 // ADRESS
@@ -28,6 +34,9 @@
   margin-bottom: 60px;
 }
 
+.footer__list {
+  margin-bottom: 60px;
+}
 .footer__item {
   margin-bottom: 8px;
 }
@@ -95,7 +104,6 @@
 .footer__button {
   margin-top: 20px;
   padding: 10px 28px;
-  //   margin-left: 12px;
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
