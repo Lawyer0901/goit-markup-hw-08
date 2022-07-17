@@ -25,4 +25,14 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: $button-text;
+
+  .footer__logo-web {
+    font-family: "Raleway";
+    color: $accent-color;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  }
 }
