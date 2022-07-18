@@ -22,12 +22,20 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 15px;
-  flex-basis: calc(100% - 2 * 30px) / 3;
+  flex-basis: calc(100% - 2 * 30px) / 2;
+
+  @media screen and (min-width: 768px) {
+    flex-basis: calc(100% - 2 * 30px) / 3;
+  }
 }
 
 .clients__item {
   width: 210px;
   height: 92px;
+
+  @media screen and (min-width: 768px) {
+    width: 226px;
+  }
 }
 
 .clients__link {
