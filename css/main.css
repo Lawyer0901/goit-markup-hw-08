@@ -321,6 +321,7 @@ ul {
 }
 
 .footer__logo {
+  display: block;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -1034,19 +1035,21 @@ ul {
 .flex-footer {
   text-align: center;
 }
+
 @media screen and (min-width: 768px) {
-  .flex-footer {
+  .footer-data-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
   }
 }
-
 .adress-container {
   margin-top: 20px;
   margin-bottom: 8px;
