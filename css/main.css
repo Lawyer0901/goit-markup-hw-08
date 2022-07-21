@@ -587,6 +587,11 @@ ul {
     width: 354px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .benefits .benefits__text {
+    width: 270px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .benefits__list {
@@ -598,12 +603,6 @@ ul {
         flex-wrap: wrap;
     -ms-flex-preferred-size: calc((100% - 60px) / 2);
         flex-basis: calc((100% - 60px) / 2);
-  }
-}
-@media screen and (min-width: 768px) and (min-width: 1200px) {
-  .benefits__list {
-    -ms-flex-preferred-size: calc((100% - 90px) / 3);
-        flex-basis: calc((100% - 90px) / 3);
   }
 }
 .benefits .benefits__icon {
@@ -627,7 +626,7 @@ ul {
   }
 }
 @media screen and (min-width: 1200px) {
-  .benefits {
+  .benefits .benefits__icon {
     width: 270px;
   }
 }

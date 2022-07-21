@@ -25,6 +25,9 @@
     @media screen and (min-width: 768px) {
       width: 354px;
     }
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+    }
   }
 }
 
@@ -34,10 +37,6 @@
     gap: 15px;
     flex-wrap: wrap;
     flex-basis: calc((100% - 2 * 30px) / 2);
-
-    @media screen and (min-width: 1200px) {
-      flex-basis: calc((100% - 3 * 30px) / 3);
-    }
   }
 }
 
@@ -54,8 +53,8 @@
     @media screen and (min-width: 768px) {
       width: 354px;
     }
-  }
-  @media screen and (min-width: 1200px) {
-    width: 270px;
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+    }
   }
 }
