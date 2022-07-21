@@ -52,6 +52,10 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
 }
 
 .footer__svglist {
@@ -79,13 +83,19 @@
 }
 
 .footer__form-title {
+  margin-bottom: 20px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  margin-bottom: 20px;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+    text-align: left;
+  }
 }
 .footer__input {
   padding: 16px 15px;
@@ -97,6 +107,10 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+  }
+
   &::placeholder {
     line-height: 1.25;
     letter-spacing: 0.03em;
@@ -106,6 +120,7 @@
 
 .footer__button {
   margin-top: 20px;
+  margin-left: 11px;
   padding: 10px 28px;
   display: inline-flex;
   justify-content: space-between;
@@ -131,40 +146,3 @@
 .footer__icon-send {
   fill: #fff;
 }
-
-// .flex-footer {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-//   flex-wrap: wrap;
-//   align-items: baseline;
-// }
-
-// .footer__list {
-//   display: flex;
-//   flex-direction: column;
-// }
-// .footer__adress {
-//   margin-top: 20px;
-//   margin-bottom: 9px;
-//   font-family: "Roboto";
-//   font-style: normal;
-//   font-size: 14px;
-//   line-height: 1.7;
-//   color: #ffffff;
-//   letter-spacing: 0.03em;
-// }
-
-// .footer-container {
-//   margin-left: 70px;
-// }
-
-// .footer__form {
-//   margin-left: auto;
-// }
-
-// .form {
-//   position: relative;
-// }
-//

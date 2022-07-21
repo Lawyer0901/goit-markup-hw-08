@@ -12,6 +12,12 @@
     flex-direction: column;
 
     gap: 10px;
+
+    @media screen and (min-width: 1200px) {
+      flex-direction: row;
+      margin-left: auto;
+      gap: 30px;
+    }
   }
   .header__auth-link {
     display: inline-flex;
@@ -54,23 +60,3 @@
     color: $accent-color;
   }
 }
-
-// @media screen and (min-width: 768px) {
-//   .adress-container,
-//   .footer__list {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: flex-start;
-//   }
-// }
-//
-// .footer {
-//   .footer__list {
-//     display: flex;
-//     flex-direction: column;
-//   }
-
-//   .footer__item:not(:last-child) {
-//     margin-bottom: 9px;
-//   }
-// }

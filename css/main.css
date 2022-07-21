@@ -364,6 +364,11 @@ ul {
           align-items: center;
   height: 60px;
 }
+@media screen and (min-width: 1200px) {
+  .header .header-container {
+    gap: 93px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .header-container {
@@ -375,6 +380,13 @@ ul {
     display: flex;
     gap: 50px;
   }
+}
+@media screen and (min-width: 768px) and (min-width: 1200px) {
+  .header__list .header__list:first-child {
+    margin-left: 93px;
+  }
+}
+@media screen and (min-width: 768px) {
   .header__link {
     display: block;
     padding-top: 27px;
@@ -425,6 +437,18 @@ ul {
             flex-direction: column;
     gap: 10px;
   }
+}
+@media screen and (min-width: 768px) and (min-width: 1200px) {
+  .header__auth {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-left: auto;
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
   .header__auth-link {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -492,6 +516,17 @@ ul {
     background-image: url(/images/header768@2x.jpg);
   }
 }
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding: 200px 0;
+    background-image: url(/images/header1600.jpg);
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(/images/header1600@2x.jpg);
+  }
+}
 
 .hero__title {
   margin-bottom: 30px;
@@ -553,6 +588,24 @@ ul {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .benefits__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 15px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-preferred-size: calc((100% - 60px) / 2);
+        flex-basis: calc((100% - 60px) / 2);
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1200px) {
+  .benefits__list {
+    -ms-flex-preferred-size: calc((100% - 90px) / 3);
+        flex-basis: calc((100% - 90px) / 3);
+  }
+}
 .benefits .benefits__icon {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -573,19 +626,12 @@ ul {
     width: 354px;
   }
 }
-
-@media screen and (min-width: 768px) {
-  .benefits__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    gap: 15px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-preferred-size: calc((100% - 60px) / 2);
-        flex-basis: calc((100% - 60px) / 2);
+@media screen and (min-width: 1200px) {
+  .benefits {
+    width: 270px;
   }
 }
+
 .wedo {
   padding-top: 0;
 }
@@ -1113,6 +1159,11 @@ ul {
   text-transform: uppercase;
   color: #ffffff;
 }
+@media screen and (min-width: 1200px) {
+  .footer__title {
+    text-align: left;
+  }
+}
 
 .footer__svglist {
   display: -webkit-box;
@@ -1150,13 +1201,19 @@ ul {
 }
 
 .footer__form-title {
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  margin-bottom: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .footer__form-title {
+    margin-bottom: 0;
+    text-align: left;
+  }
 }
 
 .footer__input {
@@ -1169,6 +1226,11 @@ ul {
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+}
+@media screen and (min-width: 1200px) {
+  .footer__input {
+    width: 358px;
+  }
 }
 .footer__input::-webkit-input-placeholder {
   line-height: 1.25;
@@ -1198,6 +1260,7 @@ ul {
 
 .footer__button {
   margin-top: 20px;
+  margin-left: 11px;
   padding: 10px 28px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -1373,6 +1436,7 @@ ul {
   background-color: #fff;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 999;
 }
 
 .button-mobile:hover,
@@ -1402,7 +1466,7 @@ ul {
   position: absolute;
   width: 100%;
   height: auto;
-  top: 40px;
+  top: 0;
   left: 0;
   z-index: 99;
   background-color: #fff;
