@@ -6,7 +6,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(./images/header480.jpg);
+    url(../images/header480.jpg);
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,27 +17,27 @@
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: url(./images/header480@2x.jpg);
+    background-image: url(../images/header480@2x.jpg);
   }
 
   @media screen and (min-width: 768px) {
-    background-image: url(./images/header768.jpg);
+    background-image: url(../images/header768.jpg);
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(./images/header768@2x.jpg);
+      background-image: url(../images/header768@2x.jpg);
     }
   }
 
   @media screen and (min-width: 1200px) {
     padding: 200px 0;
-    background-image: url(./images/header1600.jpg);
+    background-image: url(../images/header1600.jpg);
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(./images/header1600@2x.jpg);
+      background-image: url(../images/header1600@2x.jpg);
     }
   }
 }
