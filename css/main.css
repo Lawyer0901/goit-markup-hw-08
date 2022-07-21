@@ -1364,6 +1364,11 @@ ul {
     width: 354px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .portfolio__img {
+    width: 370px;
+  }
+}
 
 .container-portfolio {
   padding: 77px 24px;
