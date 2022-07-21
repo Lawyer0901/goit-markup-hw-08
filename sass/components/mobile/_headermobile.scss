@@ -44,6 +44,10 @@
 
 .header__mobile-navcontainer.is-open {
   display: block;
+
+  @media screen and (min-width: 767px) {
+    display: none;
+  }
 }
 
 // СТИЛИ МЕНЮ МОБИЛКИ

@@ -1490,6 +1490,11 @@ ul {
 .header__mobile-navcontainer.is-open {
   display: block;
 }
+@media screen and (min-width: 767px) {
+  .header__mobile-navcontainer.is-open {
+    display: none;
+  }
+}
 
 .header__mob-item + .header__mob-item {
   margin-top: 32px;
