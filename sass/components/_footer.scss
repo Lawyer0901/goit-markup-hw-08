@@ -19,6 +19,10 @@
 .adress-container {
   margin-top: 20px;
   margin-bottom: 8px;
+
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
 }
 
 // ADRESS
@@ -33,13 +37,13 @@
   letter-spacing: 0.03em;
 }
 
-.footer-container {
-  margin-bottom: 60px;
-}
+// .footer-container {
+//   margin-bottom: 60px;
+// }
 
-.footer__list {
-  margin-bottom: 60px;
-}
+// .footer__list {
+//   margin-bottom: 60px;
+// }
 .footer__item {
   margin-bottom: 8px;
 }

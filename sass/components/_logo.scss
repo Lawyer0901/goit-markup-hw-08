@@ -27,6 +27,10 @@
   letter-spacing: 0.03em;
   color: $button-text;
 
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
+
   .footer__logo-web {
     font-family: "Raleway";
     color: $accent-color;

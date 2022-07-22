@@ -330,6 +330,11 @@ ul {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+@media screen and (min-width: 1200px) {
+  .footer__logo {
+    text-align: left;
+  }
+}
 .footer__logo .footer__logo-web {
   font-family: "Raleway";
   color: #2196f3;
@@ -1169,6 +1174,11 @@ ul {
   margin-top: 20px;
   margin-bottom: 8px;
 }
+@media screen and (min-width: 1200px) {
+  .adress-container {
+    text-align: left;
+  }
+}
 
 .footer__adress {
   margin-bottom: 8px;
@@ -1178,14 +1188,6 @@ ul {
   line-height: 1.7;
   color: #ffffff;
   letter-spacing: 0.03em;
-}
-
-.footer-container {
-  margin-bottom: 60px;
-}
-
-.footer__list {
-  margin-bottom: 60px;
 }
 
 .footer__item {
