@@ -1,6 +1,7 @@
 // КНОПКА МЕНЮ МОБИЛКИ
 
 .button-mobile {
+  // margin-left: auto;
   display: inline-flex;
   padding: 0;
   margin: 0;
@@ -37,7 +38,6 @@
   height: auto;
   top: 0;
   left: 0;
-  z-index: 99;
 
   background-color: #fff;
 }
