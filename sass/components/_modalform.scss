@@ -120,7 +120,7 @@
   position: absolute;
   width: 16px;
   height: 15px;
-  background-image: url(./images/Vector.svg);
+  background-image: url(../images/Vector.svg);
   top: 50%;
   left: 0;
   transform: translateY(-50%);
@@ -148,5 +148,5 @@
   }
 }
 .checkbox__input:checked + .checkbox__icon {
-  background-image: url(./images/iconcheck.svg);
+  background-image: url(../images/iconcheck.svg);
 }
