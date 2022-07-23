@@ -5,7 +5,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: $interval;
-    // flex-basis: calc((100% - 2 * 30px) / 2);
   }
 }
 
@@ -67,7 +66,6 @@
 }
 
 .portfolio__name {
-  // padding: 20px 24px;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
@@ -79,10 +77,6 @@
   line-height: 2;
   letter-spacing: 0.06em;
   color: $text-color;
-
-  @media screen and (min-width: 768px) {
-    width: 306px;
-  }
 }
 
 .title-text {
