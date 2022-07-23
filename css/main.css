@@ -375,7 +375,7 @@ ul {
       -ms-flex-align: center;
           align-items: center;
 }
-@media screen and (min-width: 486px) {
+@media screen and (min-width: 320px) {
   .header .header-container {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
