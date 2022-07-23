@@ -1417,9 +1417,13 @@ ul {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 15px;
-    -ms-flex-preferred-size: calc((100% - 60px) / 2);
-        flex-basis: calc((100% - 60px) / 2);
+    gap: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio__content-item {
+    width: 354px;
   }
 }
 
@@ -1480,14 +1484,12 @@ ul {
 }
 
 .portfolio__name {
-  padding: 20px 24px;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
 }
 
 .portfolio__title {
-  margin-top: 20px;
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -1495,8 +1497,14 @@ ul {
   letter-spacing: 0.06em;
   color: #212121;
 }
+@media screen and (min-width: 768px) {
+  .portfolio__title {
+    width: 306px;
+  }
+}
 
 .title-text {
+  padding: 20px 24px;
   border: 1px solid #eeeeee;
 }
 
@@ -1543,6 +1551,7 @@ ul {
   top: 0;
   left: 0;
   background-color: #fff;
+  z-index: 9;
 }
 
 .header__mobile-navcontainer.is-open {
