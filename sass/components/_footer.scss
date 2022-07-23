@@ -37,13 +37,27 @@
   letter-spacing: 0.03em;
 }
 
-// .footer-container {
-//   margin-bottom: 60px;
-// }
+.footer-container {
+  @media screen and (min-width: 486px) {
+    margin-top: 60px;
+  }
 
-// .footer__list {
-//   margin-bottom: 60px;
-// }
+  @media screen and (min-width: 768px) {
+    margin-top: 0px;
+  }
+}
+
+.footer__form {
+  margin-top: 60px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;
+  }
+}
 .footer__item {
   margin-bottom: 8px;
 }

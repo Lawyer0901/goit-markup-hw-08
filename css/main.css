@@ -1190,6 +1190,31 @@ ul {
   letter-spacing: 0.03em;
 }
 
+@media screen and (min-width: 486px) {
+  .footer-container {
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-container {
+    margin-top: 0px;
+  }
+}
+
+.footer__form {
+  margin-top: 60px;
+}
+@media screen and (min-width: 768px) {
+  .footer__form {
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__form {
+    margin-top: 0;
+  }
+}
+
 .footer__item {
   margin-bottom: 8px;
 }
