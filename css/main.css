@@ -586,7 +586,6 @@ ul {
 }
 
 .benefits .benefits__text {
-  margin-bottom: 30px;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -613,6 +612,10 @@ ul {
         flex-wrap: wrap;
   }
 }
+.benefits__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
 .benefits .benefits__icon {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -1172,7 +1175,6 @@ ul {
 }
 .adress-container {
   margin-top: 20px;
-  margin-bottom: 8px;
 }
 @media screen and (min-width: 1200px) {
   .adress-container {

@@ -17,7 +17,6 @@
 
 .benefits {
   .benefits__text {
-    margin-bottom: 30px;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -37,6 +36,10 @@
     gap: $interval;
     flex-wrap: wrap;
   }
+}
+
+.benefits__item:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 .benefits {
