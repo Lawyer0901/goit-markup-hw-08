@@ -13,6 +13,16 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: baseline;
+
+    @media screen and (min-width: 1200px) {
+      justify-content: flex-start;
+    }
+  }
+}
+
+.footer-logo-container {
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
   }
 }
 
@@ -37,7 +47,7 @@
 }
 
 .footer-container {
-  @media screen and (min-width: 486px) {
+  @media screen and (min-width: 480px) {
     margin-top: 60px;
   }
 
@@ -55,6 +65,7 @@
 
   @media screen and (min-width: 1200px) {
     margin-top: 0;
+    margin-left: auto;
   }
 }
 .footer__item {

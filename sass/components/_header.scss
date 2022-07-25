@@ -1,6 +1,13 @@
 .header {
   border-bottom: 1px solid #ececec;
   position: relative;
+
+  @media screen and (min-width: 480px) {
+    padding: 10px 0;
+  }
+  @media screen and (min-width: 768px) {
+    padding: 0;
+  }
 }
 /* Navigation main */
 .header {
